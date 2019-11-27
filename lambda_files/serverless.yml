@@ -1,0 +1,12 @@
+service: PassNinjaTestAPI
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+functions:
+  server:
+    handler: app/app.handler
+    events:
+      - http: ANY /
+      - http: "ANY {proxy+}"

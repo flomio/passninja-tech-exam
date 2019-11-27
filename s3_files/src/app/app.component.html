@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="wrapper container-fluid">
+    <br>
+    <div class="col-md-12 text-center">
+        <button class="btn btn-primary" (click)="getWalletData()">Create Wallet</button>
+    </div>
+    <div class="row align-items-center justify-content-center">
+        <app-wallet [walletData]="walletData"></app-wallet>
+    </div>
+</div>

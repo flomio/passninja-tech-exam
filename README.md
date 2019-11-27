@@ -14,21 +14,24 @@ You will have up to 4 hours to complete this, but we do not expect it to take th
 
 Here is your rubric for the NodeJS portion (to be completed in order):
 
-- [ ] Create a NodeJS app with a single endpoint for creating a bitcoin wallet (any kind is OK)
-- [ ] Write a test against your single endpoint
-- [ ] Adapt the NodeJS app to AWS Lambda
-- [ ] Deploy the app to AWS lambda
-- [ ] Update README.md on your branch to have a link to the endpoint
+- [X] Create a NodeJS app with a single endpoint for creating a bitcoin wallet (any kind is OK)
+- [-] Write a test against your single endpoint
+- [X] Adapt the NodeJS app to AWS Lambda
+- [-] Deploy the app to AWS lambda
+- [-] Update README.md on your branch to have a link to the endpoint
 
 Here is your rubric for the front end portion:
 
-- [ ] Has a button to create a wallet
-- [ ] Makes an AJAX request to the AWS lambda endpoint referenced above
-- [ ] Shows the Wallet Private Key
-- [ ] Shows the wallet QR code using it's public address
-- [ ] Displays properly on a mobile device
-- [ ] Deploy front end to AWS S3
-- [ ] Update README.md on your branch to have a link to the webpage on S3
+- [X] Has a button to create a wallet
+- [-] Makes an AJAX request to the AWS lambda endpoint referenced above
+- [X] Shows the Wallet Private Key
+- [X] Shows the wallet QR code using it's public address
+- [X] Displays properly on a mobile device
+- [X] Deploy front end to AWS S3
+- [X] Update README.md on your branch to have a link to the webpage on S3
+- [X] http://passninja-frontend.s3-website.us-east-2.amazonaws.com/
+  
+![Demo Image](docs/bitcoin-wallet-generator.png)
 
 **Branching and File Structure**
 > You must create a branch that is the same name as your GitHub username - that is where you will do all of your work. Also, put all of the files for the NodeJS portion in the folder titled `lambda_files` and all of the files for the front end portion in the folder titled `s3_files`.
